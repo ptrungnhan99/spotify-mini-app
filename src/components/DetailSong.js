@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { Songs } from "../context/Context";
 function DetailSong() {
     const { song } = useContext(Songs);
-    console.log(song);
     return (
         <div className="col-span-1 p-3 bg-slate-700">
             <div className="text-[#38bdf8] font-bold">Now playing</div>
